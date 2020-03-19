@@ -1,0 +1,45 @@
+/* 
+  Este es el archivo de estilos de mi página
+
+  ESPECIFICIDAD: Qué tan específico es nuestro SELECTOR
+*/
+
+body {
+  background-color: #fafafa;
+}
+
+article {
+  width: 600px;
+  margin: 2em auto;
+  border: 1px solid #eee;
+  padding: 1.8em 2em;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #444;
+  font-size: 2.2em;
+  margin: 0;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  color: grey;
+  margin-bottom: 1.2em;
+  font-weight: 100;
+}
+
+hr {
+  border-color: #ddd;
+  border-style: solid;
+  border-bottom: 0;
+}
+
+span, time {
+  font-family: sans-serif;
+  color: grey;
+  margin-right: 1.6em;
+  font-weight: 600;
+}
